@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"  tools:context=".MainActivityFragment"
+    android:orientation="vertical" android:gravity="center_horizontal" android:background="@color/red">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Receba por email nossas ofertas e novidades."
+        android:id="@+id/title"
+        android:fontFamily="sans-serif-light"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:textColor="@color/white"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:paddingTop="77.3dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Nome"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:theme="@style/MyEditTextTheme"
+        android:id="@+id/editText"
+        android:paddingTop="76.6dp"
+        android:paddingBottom="12dp"
+        android:layout_marginLeft="40.6dp"
+        android:layout_marginRight="40.6dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/email"
+        android:theme="@style/MyEditTextTheme"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:hint="Email"
+        android:paddingBottom="12dp"
+        android:paddingTop="28dp"
+        android:layout_marginLeft="40.6dp"
+        android:layout_marginRight="40.6dp"
+        android:textSize="@dimen/abc_text_size_medium_material" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textColorHint="@color/white"
+        android:id="@+id/idade"
+        android:textColor="@color/white"
+        android:hint="Idade"
+
+        android:theme="@style/MyEditTextTheme"
+        android:paddingBottom="12dp"
+        android:paddingTop="28dp"
+        android:layout_marginLeft="40.6dp"
+        android:layout_marginRight="40.6dp"
+
+        android:textSize="@dimen/abc_text_size_medium_material" />
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:prompt="@string/prompt"
+        android:entries="@array/sexo"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enviar"
+        android:textSize="12dp"
+        android:id="@+id/button"
+        android:textColor="@color/white"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="38dp"
+        android:background="@drawable/my_button"
+        android:paddingTop="12.67dp"
+        android:paddingBottom="12.67dp"
+        android:fontFamily="sans-serif"/>
+
+</LinearLayout>

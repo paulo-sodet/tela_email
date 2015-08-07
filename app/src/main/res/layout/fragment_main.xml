@@ -82,7 +82,7 @@
         android:textColor="@color/white"
         android:layout_marginLeft="38dp"
         android:layout_marginRight="38dp"
-        android:background="@drawable/my_button"
+        android:background="@drawable/button_custom"
         android:paddingTop="12.67dp"
         android:paddingBottom="12.67dp"
         android:fontFamily="sans-serif"/>

@@ -26,4 +26,5 @@
     android:ellipsize="marquee"
     android:textColor="@color/red"
     android:textAllCaps="true"
+    android:layout_marginRight="50dp"
     />

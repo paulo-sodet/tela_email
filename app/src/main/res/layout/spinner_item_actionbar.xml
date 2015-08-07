@@ -5,5 +5,7 @@
     android:layout_height="wrap_content"
     android:textColor="@color/white"
     android:textSize="@dimen/abc_text_size_medium_material"
+    android:drawablePadding="8dp"
+    android:drawableRight="@drawable/spinner_triangle"
 
     />

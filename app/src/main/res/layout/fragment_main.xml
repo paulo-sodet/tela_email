@@ -88,6 +88,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/spinner"
+        style="@style/Widget.MyApp.HeaderBar.Spinner"
         android:paddingBottom="12dp"
         android:dropDownWidth="match_parent"
         android:layout_below="@+id/idade"

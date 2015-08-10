@@ -84,7 +84,7 @@ public class MainActivityFragment extends Fragment {
             }
             text = (TextView) convertView.findViewById(R.id.target);
             if (!selected) {
-                text.setText("please select a value");
+                text.setText("Sexo");
             } else {
                 text.setText(data[position]);
             }

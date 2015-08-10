@@ -8,8 +8,9 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:textColor="@color/white"
-    android:drawablePadding="16dp"
-    android:drawableRight="@android:drawable/arrow_down_float"
-    android:textSize="@dimen/abc_text_size_medium_material" />
+
+    android:textSize="@dimen/abc_text_size_medium_material"
+    android:drawablePadding="8dp"
+    android:drawableRight="@drawable/spinner_triangle" />
 
 </LinearLayout>
